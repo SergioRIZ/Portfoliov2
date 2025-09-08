@@ -2,7 +2,6 @@ export interface Project {
     id: string
     title: string
     description: string
-    longDescription: string
     technologies: string[]
     category: 'web' | 'mobile' | 'desktop' | 'api'
     status: 'completed' | 'in-progress' | 'archived'
